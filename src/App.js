@@ -3,6 +3,7 @@ import Link from "./link.js";
 import Bouton from "./button.js";
 import Input from "./input.js";
 import google_img from "./google.svg";
+import dribbbleVideo from "./dribbblevideo.mp4";
 
 let svg = (
   <svg
@@ -32,7 +33,7 @@ export default function App() {
           autoPlay="true"
           loop
           muted
-          src="https://cdn.dribbble.com/uploads/48226/original/b8bd4e4273cceae2889d9d259b04f732.mp4?1689028949"
+          src={dribbbleVideo}
         ></video>
       </div>
       <div className="div_form">
