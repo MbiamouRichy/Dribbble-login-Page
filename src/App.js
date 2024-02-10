@@ -61,12 +61,7 @@ export default function App() {
             texteLabel={
               <>
                 <p>Password</p>
-                <Link
-                  link_class="link-pass"
-                  href="#"
-                  href="#"
-                  texte="Forgot?"
-                />
+                <Link link_class="link-pass" href="#" texte="Forgot?" />
               </>
             }
             htmlFor="password"
